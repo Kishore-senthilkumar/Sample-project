@@ -10,5 +10,6 @@ int main(){
     }  
     cout << sum;
     cout << "Feature 1 change is here";
+    cout << "Feature 2 change is here";
     return 0;
 }
