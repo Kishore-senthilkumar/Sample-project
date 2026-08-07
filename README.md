@@ -1,1 +1,1 @@
-This is an repository i used for git assignment in McW
+This is an repository i used for git assignment to demonstrate git commands in McW 
