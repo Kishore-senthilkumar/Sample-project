@@ -34,7 +34,7 @@ git commit -m "Sleeping activity added to notes"
 
 git log --oneline
 
-git revert "commit id"
+git revert 1e0b2f32ea8efb141670a3f3dab5552cbd32
 
 git log --oneline
 ```
@@ -42,8 +42,11 @@ git log --oneline
 ## Screenshot
 
 > - Befor Revert:
+
 ![Before revert](<Images/Screenshot 2026-08-07 122110.png>)
+
 > - After Revert:
+
 ![After revert](<Images/Screenshot 2026-08-07 122928.png>)
 
 ## Explanation
@@ -84,12 +87,19 @@ git log --oneline
 
 ## Screenshot
 > - Before 
+
 ![Before](<Images/Screenshot 2026-08-07 122928-1.png>)
+
 > - Deleting last commit
+
 ![Deleting last commit](<Images/Screenshot 2026-08-07 135422-1.png>)
+
 > - git reflog output
+
 ![Reflog output](<Images/Screenshot 2026-08-07 135511.png>)
+
 > - Repository after recovery
+
 ![After recovery](<Images/Screenshot 2026-08-07 135637.png>)
 
 ## Explanation
@@ -143,6 +153,7 @@ git rebase -i HEAD~4
 ---
 
 > - Before Rebbase
+
 ![Before rebase](<Images/Before rebase.png>)
 
 Example:
@@ -154,9 +165,12 @@ New learning activity added
 Assignment Time added to notes
 ```
 
-> - Pick squase Consolde
+> - Pick squase Console
+
 ![Console](<Images/PICk squash console.png>)
+
 > - After Rebase
+
 ![After rebase](<Images/After rebase.png>)
 
 Example:
@@ -219,7 +233,7 @@ git checkout main
 
 git checkout -b feature-export
 
-git cherry-pick <commit-hash>
+git cherry-pick 1ce183675b784eac97c2165966f7066f8a0f442d
 
 git log --oneline
 ```
@@ -227,10 +241,15 @@ git log --oneline
 ## Screenshot
 
 > - Feature Theme:
+
 ![theme feature](<Images/feature theme.png>)
+
 > - Befor Cherry pick in Export branch
+
 ![Before cherry pick](<Images/featrure export before CP.png>)
+
 > - After Cherry pick in Export branch
+
 ![After Cherry pick](<Images/feature export after CP.png>)
 
 ## Explanation
@@ -272,10 +291,15 @@ git push origin v1.0
 ## Screenshot
 
 > - After Cleaning branches
+
 ![After clean](<Images/Deleted all branch.png>)
+
 > - Tag creation
+
 ![Tag creation](<Images/Tag created.png>)
+
 > - Tag created
+
 ![Tag created](<Images/Tage created.png>)
 
 ## Explanation
